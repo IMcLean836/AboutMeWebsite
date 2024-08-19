@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.profile-section {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.profile-section img {
+    border-radius: 50%;
+    width: 150px;
+    height: 200px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.social-media a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 2rem;
+    transition: transform 0.3s ease;
+}
+
+.social-media a:hover {
+    transform: scale(1.2);
+}
+
+.skills-section, .repos-section {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    align-items: center;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin-top: auto;
+}
